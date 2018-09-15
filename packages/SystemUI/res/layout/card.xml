@@ -14,10 +14,6 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<!-- Removed from line 22:
-        app:cardBackgroundColor="@android:color/holo_red_dark"
--->
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
@@ -27,6 +23,7 @@
         android:id="@+id/card"
         android:layout_width="match_parent"
         android:padding="5dp"
+        app:cardBackgroundColor="@android:color/holo_red_dark"
         android:layout_margin="5dp"
         app:cardCornerRadius="5dp"
         android:layout_height="match_parent">
